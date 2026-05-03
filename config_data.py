@@ -13,3 +13,8 @@ similarity_threshold=3#检索返回匹配文档数量
 
 embedding_model_name="text-embedding-v4"
 chat_model_name="qwen3-max"
+session_config={
+        "configurable":{
+            "session_id":"user_001"
+        }
+    }

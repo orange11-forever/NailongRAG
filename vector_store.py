@@ -1,6 +1,6 @@
 from langchain_chroma import Chroma
 import config_data as config
-from Nailong.config_data import similarity_threshold
+from config_data import similarity_threshold
 
 
 class VectorStoreService(object):
